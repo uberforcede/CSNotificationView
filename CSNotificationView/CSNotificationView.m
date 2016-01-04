@@ -75,7 +75,7 @@
     
     
     [CSNotificationView showInViewController:viewController
-                         tintColor:[CSNotificationView blurTintColorForStyle:style]
+                         tintColor:tintColor//[CSNotificationView blurTintColorForStyle:style]
                              image:[CSNotificationView imageForStyle:style]
                            message:message
                           duration:kCSNotificationViewDefaultShowDuration];
@@ -121,6 +121,7 @@
             self.blurView.userInteractionEnabled = NO;
             self.blurView.translatesAutoresizingMaskIntoConstraints = NO;
             self.blurView.clipsToBounds = NO;
+            self.blurView.hidden = YES; // marbolac: hide blur view
             [self insertSubview:self.blurView atIndex:0];
             
         }
@@ -298,6 +299,7 @@
     _tintColor = tintColor;
     [self.blurView setBlurTintColor:tintColor];
     self.contentColor = [self legibleTextColorForBlurTintColor:tintColor];
+    self.backgroundColor = tintColor;    // marbolac: with hidden blur view, apply tintColor to main background
 }
 
 #pragma mark - interaction

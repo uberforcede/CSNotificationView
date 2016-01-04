@@ -75,7 +75,7 @@
     
     
     [CSNotificationView showInViewController:viewController
-                         tintColor:tintColor//[CSNotificationView blurTintColorForStyle:style]
+                         tintColor:[CSNotificationView blurTintColorForStyle:style]
                              image:[CSNotificationView imageForStyle:style]
                            message:message
                           duration:kCSNotificationViewDefaultShowDuration];

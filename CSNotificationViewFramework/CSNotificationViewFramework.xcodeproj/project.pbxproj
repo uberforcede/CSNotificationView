@@ -10,7 +10,7 @@
 		56C584DE1FE96CFF00889917 /* CSNotificationViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C584DC1FE96CFF00889917 /* CSNotificationViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56C584F51FE96D2E00889917 /* CSNotificationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C584E71FE96D2E00889917 /* CSNotificationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56C584F61FE96D2E00889917 /* CSNativeBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C584E81FE96D2E00889917 /* CSNativeBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56C584F71FE96D2E00889917 /* CSNotificationView_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C584E91FE96D2E00889917 /* CSNotificationView_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		56C584F71FE96D2E00889917 /* CSNotificationView_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C584E91FE96D2E00889917 /* CSNotificationView_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56C584F81FE96D2E00889917 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 56C584EB1FE96D2E00889917 /* checkmark.png */; };
 		56C584F91FE96D2E00889917 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56C584EC1FE96D2E00889917 /* checkmark@2x.png */; };
 		56C584FA1FE96D2E00889917 /* exclamationMark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56C584ED1FE96D2E00889917 /* exclamationMark@3x.png */; };

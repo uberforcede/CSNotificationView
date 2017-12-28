@@ -16,7 +16,7 @@ FOUNDATION_EXPORT const unsigned char CSNotificationViewFrameworkVersionString[]
 
 // In this header, you should import all the public headers of your framework using statements like #import <CSNotificationViewFramework/PublicHeader.h>
 
-#import <CSNotificationView/CSNotificationView.h>
-#import <CSNotificationView/CSNativeBlurView.h>
-#import <CSNotificationView/CSLayerStealingBlurView.h>
+#import <CSNotificationViewFramework/CSNotificationView.h>
+#import <CSNotificationViewFramework/CSNativeBlurView.h>
+#import <CSNotificationViewFramework/CSLayerStealingBlurView.h>
 
